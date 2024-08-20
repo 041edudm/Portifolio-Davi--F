@@ -4,9 +4,21 @@
 --cor-texto: #FFFFFF;
 }
 
+*{
+  margin:0;
+  padding:0;
+}
+
 body{
    background-color: var(--cor-fundo) ;
   color: var(--cor-texto);
+}
+
+.apresentacao{
+  display:flex;
+  margin:10%;
+  align-items:center;
+  justify-content: space-between;
 }
 
 trong{
@@ -14,11 +26,9 @@ trong{
 }
 
 a{
-  color: var(--cor-texto);
-  font-size:20px;
-  text-decoration:none;
-  background-color: var(--cor-destaque) ;
-  padding: 10px 20px ;
-  margin:10px;
-  border-radius:20px;
+  
 }
+.foto{
+  height:490px;
+}
+
